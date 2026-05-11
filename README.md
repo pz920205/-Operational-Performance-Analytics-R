@@ -1,5 +1,16 @@
 # Operational-Performance-Analytics-R
-
+yaml---
+title: "Reporte de Desempeño Operativo"
+author: "Pedro Pérez - Data Analyst"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    highlight: tango
+  pdf_document:
+    toc: true
 📌 Descripción del ProyectoEste proyecto utiliza el lenguaje R para realizar un análisis avanzado del rendimiento operativo. A diferencia de las herramientas de BI tradicionales, este análisis profundiza en la variabilidad estadística de los datos de campo, permitiendo identificar cuellos de botella y desviaciones que impactan directamente en la rentabilidad de los eventos y el cumplimiento de rutas.
 
 🚀 Desafíos Operativos ResueltosDetección de Anomalías: Identificación de registros inconsistentes en la captura de datos de campo mediante análisis de distribución.Automatización de Reportes: Uso de R Markdown para generar informes ejecutivos en PDF/HTML listos para ser presentados a stakeholders internos y clientes.Análisis de Tendencias: Procesamiento de series temporales para predecir picos de carga operativa y optimizar la asignación de recursos.🛠️ 
