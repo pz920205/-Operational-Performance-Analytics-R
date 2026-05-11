@@ -1,5 +1,5 @@
 # Operational-Performance-Analytics-R
-yaml---
+yaml
 title: "Reporte de Desempeño Operativo"
 author: "Pedro Pérez - Data Analyst"
 date: "`r Sys.Date()`"
